@@ -1,18 +1,6 @@
-// import FeedbackCounter from './components/FeedbackCounter'
-
-// function App() {
-//   return (
-//     <div>
-//       <FeedbackCounter initialValue={{ good: 0, neutral: 0, bad: 0 }} />
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import { Component } from 'react';
 import Statistics from './components/Statistics';
-import FeedbackOptions from './components/FeedbackOptions';
+import FeedbackOptions from './components/FeedbackOptions/';
 import Section from './components/Section';
 import Notification from './components/Notification';
 import './App.scss'
